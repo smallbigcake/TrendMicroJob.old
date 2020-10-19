@@ -1,23 +1,13 @@
 <template>
+    <div id="nav">
+        <router-link to="/">Home</router-link>
+        |
+        <router-link to="/about">About</router-link>
+    </div>
     <div id="whole">
-        <img id="logo" alt="Vue logo" src="./assets/logo.svg">
-        <JobFilter msg="Welcome to Trend Micro Job Referral"/>
-        <JobList msg="Job List Here"/>
+        <router-view/>
     </div>
 </template>
-
-<script>
-import JobFilter from './components/JobFilter.vue'
-import JobList from './components/JobList.vue'
-
-export default {
-    name: 'App',
-    components: {
-        JobFilter,
-        JobList
-    }
-}
-</script>
 
 <style>
 #app {
@@ -27,12 +17,28 @@ export default {
     text-align: center;
     text-align: -webkit-center;
     color: #2c3e50;
-    margin-top: 60px;
 }
+
+
+
+#nav {
+    padding: 30px;
+}
+
 #whole {
     width: 800px;
 }
+
+#nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
 img#logo {
     width: 50%
+}
+
+#nav a.router-link-exact-active {
+    color: #42b983;
 }
 </style>
