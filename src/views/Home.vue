@@ -2,7 +2,7 @@
     <div class="home">
         <Header />
         <JobFilter msg="Welcome to Trend Micro Job Referral"/>
-        <JobList msg="Job List Here" :job-data="job_data"/>
+        <JobList msg="Job List" :job-data="job_data"/>
     </div>
 </template>
 

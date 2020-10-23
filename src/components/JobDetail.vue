@@ -1,11 +1,13 @@
 <template>
     <div id="job_detail">
-        <div class="small-title">Job Name: </div>
+        <div><a href="/">Return Home</a></div>
+        <div class="small-title">Job Title: </div>
         <div> {{ job_detail.title }}</div>
         <div class="small-title">Responsibilities</div>
         <div class="content" v-html="responsibilities"></div>
         <div class="small-title">Qualifications</div>
         <div class="content" v-html="qualifications"></div>
+        <div><a href="/">Return Home</a></div>
     </div>
 </template>
 <script>
@@ -41,6 +43,9 @@ export default {
 }
 .content {
     line-height: 36px;
+}
+a {
+    color: #42b983;
 }
 
 </style>

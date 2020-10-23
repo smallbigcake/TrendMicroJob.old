@@ -1,6 +1,6 @@
 <template>
     <div class="job-list">
-        <h1>{{ msg }}</h1>
+        <h2>{{ msg }}</h2>
         <table>
             <thead>
                 <td>Job Title</td>
@@ -33,16 +33,47 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h2 {
+    text-align: left;
+}
 table {
-    border-width: 1px;
-    border-style: solid;
-    border-collapse: collapse;
+    border-radius: 5px;
+    border-spacing: 0;
     width: 100%;
+    line-height: 24px;
 }
 
 td {
-    border-width: 1px;
-    border-style: solid;
+    padding: 8px;
+}
+
+thead {
+    background-color: lightpink;
+    font-weight: 600;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff0ff;
+}
+
+tr:nth-child(even) {
+    background-color: #fef9fc;
+}
+
+thead > td:first-child {
+    border-top-left-radius: 5px;
+}
+
+thead > td:last-child {
+    border-top-right-radius: 5px;
+}
+
+tr:last-child > td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+tr:last-child > td:last-child {
+    border-bottom-right-radius: 5px;
 }
 
 h3 {

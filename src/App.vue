@@ -30,7 +30,7 @@
 }
 
 img#logo {
-    width: 50%
+    width: 200px;
 }
 
 #nav a.router-link-exact-active {
