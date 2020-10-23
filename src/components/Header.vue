@@ -1,15 +1,13 @@
 <template>
     <div class="header">
         <img id="logo" alt="Vue logo" src="../assets/logo.svg">
+        <h1>Welcome to Trend Micro Job Referral</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Header',
-    props: {
-        msg: String
-    }
+    name: 'Header'
 }
 </script>
 

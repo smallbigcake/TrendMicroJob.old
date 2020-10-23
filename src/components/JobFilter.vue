@@ -1,6 +1,5 @@
 <template>
     <div class="filter">
-        <h1>{{ msg }}</h1>
         <h2>
             Search Job Position
         </h2>
@@ -9,10 +8,7 @@
 
 <script>
 export default {
-    name: 'JobFilter',
-    props: {
-        msg: String
-    }
+    name: 'JobFilter'
 }
 </script>
 

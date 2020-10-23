@@ -21,7 +21,7 @@
 }
 
 #whole {
-    width: 800px;
+    width: 1200px;
 }
 
 #nav a {

@@ -35,6 +35,8 @@ export default {
 <style scoped>
 #job_detail {
     text-align: left;
+    background-color: #fcf8f3;
+    padding: 10px;
 }
 .small-title {
     font-weight: 600;

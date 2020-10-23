@@ -33,6 +33,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.job-list {
+    padding: 10px;
+
+}
 h2 {
     text-align: left;
 }
