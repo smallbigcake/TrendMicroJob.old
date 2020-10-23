@@ -11,7 +11,7 @@
                 <tr v-for="(item, index) in jobData"
                     :key="index"
                     >
-                    <td>{{ item.title }}</td>
+                    <td><a :href="'job/' + index"> {{ item.title }} </a></td>
                     <td>{{ item.type }}</td>
                     <td>{{ item.pub_date }}</td>
                 </tr>
