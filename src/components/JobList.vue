@@ -5,7 +5,7 @@
             <thead>
                 <td>Job Title</td>
                 <td>Job Type</td>
-                <td>Publis Date</td>
+                <td>Publish Date</td>
             </thead>
             <tbody>
                 <tr v-for="(item, index) in jobData"
