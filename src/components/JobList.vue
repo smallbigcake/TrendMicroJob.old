@@ -12,7 +12,7 @@
                     :key="item.id"
                     >
                     <td><a :href="'job/' + item.id"> {{ item.title }} </a></td>
-                    <td>{{ item.type }}</td>
+                    <td>{{ item.job_type }}</td>
                     <td>{{ item.pub_date }}</td>
                 </tr>
             </tbody>
@@ -32,7 +32,9 @@ export default {
         sorted_job_data: function () {
             const job_array = [];
             for (const job_id in this.jobData) {
-                if (this.jobData[job_id].status === "open") {
+                if (this.jobData[job_id].status === "open"  // Job may be closed.
+                    && this.recruit_type.indexOf(this.jobData[job_id].recruit_type) !== -1  // Only current selected recruit type will be displayed.
+                ) {
                     const one_job = this.jobData[job_id];
                     one_job.id = job_id;
                     job_array.push(one_job);
@@ -40,6 +42,9 @@ export default {
             }
             job_array.sort(sort_job_date);
             return job_array;
+        },
+        recruit_type: function () {
+            return this.$store.state.job_filter.recruit_type;
         }
     }
 }
