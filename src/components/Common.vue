@@ -6,6 +6,7 @@ const job_data = {
         title: "资深开发工程师Linux C++",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities:
             "1.Problem solving and troubleshooting, debugging and performance optimization for Web Gateway product or Mail gateway product.\n" +
             "2.Self-motivated, proactive, can work with minimum supervision. Communicate smoothly with team members, customers and other team.\n" +
@@ -25,7 +26,8 @@ const job_data = {
     190295876: {
         title: "资深测试开发工程师-Android",
         type: "测试开发",
-        pub_date: " 2020-09-29",
+        pub_date: "2020-09-29",
+        status: "open",
         responsibilities: "1.Come out test design, test cases design based on product requirement.\n" +
             "2.Design and deploy test environment.\n" +
             "3.Design automation test and develop test tools.\n" +
@@ -46,7 +48,8 @@ const job_data = {
     190291157: {
         title: "资深测试工程师",
         type: "测试",
-        pub_date: " 2020-09-09",
+        pub_date: "2020-09-09",
+        status: "open",
         responsibilities: "1. Work closely with Dev/Operation team and stakeholders to conduct test design and define quality metrics for product features.\n" +
             "2. Write test plans and test cases and executing test cases in a thorough and timely manner and deliver test reports.\n" +
             "3. Build automated test suites with existing testing framework.\n" +
@@ -68,7 +71,8 @@ const job_data = {
     190298493: {
         title: "前端工程师",
         type: "开发",
-        pub_date: " 2020-10-21",
+        pub_date: "2020-10-21",
+        status: "open",
         responsibilities: "1. Develop user-facing features for Trend Micro SaaS project.\n" +
             "2. Ensure the technical feasibility of UI/UX designs and deliver mockup.\n" +
             "3. Deliver feature requirement and design documents. Complete code construction with high quality.\n" +
@@ -85,7 +89,8 @@ const job_data = {
     190296265: {
         title: "资深开发工程师-XDR",
         type: "开发",
-        pub_date: " 2020-10-09",
+        pub_date: "2020-10-09",
+        status: "open",
         responsibilities: "1. Be responsible for mobile XDR feature design/development.\n" +
             "2. Good teamwork spirit and strong responsibility.\n" +
             "3. Motivation and resourcefulness to get things done and overcome obstacles.\n",
@@ -102,6 +107,7 @@ const job_data = {
         title: "资深开发工程师-SaaS开发",
         type: "开发",
         pub_date: "2020-09-08",
+        status: "open",
         responsibilities: "1. The developer will join a pure SaaS project, which hosted in public cloud.\n" +
             "2. This position require software develop engineer contributing design/coding/debug/review/training in whole project development life cycle; Problem solving and troubleshooting, debugging and performance optimization, maintenance of software products;\n" +
             "3. Self-motivated, proactive, can work with minimum supervision. Communicate smoothly with team members, customer, and other team",
@@ -116,6 +122,7 @@ const job_data = {
         title: "资深Linux开发工程师",
         type: "开发",
         pub_date: "2020-09-01",
+        status: "open",
         responsibilities: "1. Develop new features, problem solving and troubleshooting, debugging and performance optimization of software products.\n" +
             "2. Contribute in SRS/design/coding/review/unit testing/training in whole project development lifecycle.\n" +
             "3. Self-motivated, proactive, can work with minimum supervision. Communicate smoothly with team members, customers and other teams cross-sites.",
@@ -132,6 +139,7 @@ const job_data = {
         title: "资深开发工程师Mac/Linux",
         type: "开发",
         pub_date: "2020-09-01",
+        status: "open",
         responsibilities: "1.Design, build, and maintain core modules and unified platform on Mac OS X.\n" +
             "2.Research and implement new AV(anti-virus)/WTP(web threat protection)/EDR(endpoint detection and response)/DLP(data loss prevention) technology.\n" +
             "3.Problem troubleshooting, performance tuning and continuous design refactoring.\n",
@@ -144,6 +152,7 @@ const job_data = {
         title: "Cloud/backend Developer",
         type: "开发",
         pub_date: "2020-08-10",
+        status: "open",
         responsibilities: "1.Build containerized apps and/or microservices on cloud that connected with other services and provide data support to frontend\n" +
             "2.Develop auto verification features to ensure service quality\n" +
             "3.Ensure systems are secure and compliant with company guideline\n" +
@@ -163,6 +172,7 @@ const job_data = {
         title: "UE/UI 资深设计师",
         type: "设计",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "- Articulate, develop and model the end-to-end user experience\n" +
             "- Perform workflow analysis and develop use cases\n" +
             "- Develop high level and detailed mockups and prototypes\n" +
@@ -186,6 +196,7 @@ const job_data = {
         title: "移动威胁响应工程师",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1.Be responsible for mobile malware analysis and provide solution to protect Trend Micro's global customers.\n" +
             "2.Develop automatic systems like mobile sandbox, taint analysis system to capture unknown and advanced mobile threats.\n" +
             "3.As threat expert to publish research report/whitepaper on hot malware or APT attacks to keep Trend Micro's leading position in mobile security industry.",
@@ -202,6 +213,7 @@ const job_data = {
         title: "移动威胁大数据研发工程师",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1.Design and implement powerful mobile threat bigdata steam processing system for over billions of files (Android/iOS/…).\n" +
             "2.Design and implement smart protection cloud service for hundreds of millions endpoints.",
         qualifications: "1.Having experience or great interests on big data processing and DevOPs\n" +
@@ -218,6 +230,7 @@ const job_data = {
         title: "移动威胁大数据研发工程师",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1.Research and application of ML algorithms to detect anomaly in enterprise-wise environment.\n" +
             "2.Collecting, processing, cleansing, and verifying the integrity of data used for analysis.\n" +
             "3.Data mining and feature extraction using state-of-the-art methods.\n" +
@@ -231,6 +244,7 @@ const job_data = {
         title: "初级软件开发工程师",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1.In this position, you will be responsible for working in software product development which is used by our global customers.\n" +
             "2.As a programmer at Trend Micro, you will help to design, develop, maintains, implements and update the code and software modules for our projects & products.\n" +
             "3.You will work with minimal supervision on analysis task. You will participate in the definition of the lifecycle of software process and in code reviews.",
@@ -248,6 +262,7 @@ const job_data = {
         title: "资深开发工程师C++",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1.Feature design, review and implementation. Deliver qualified design document.\n" +
             "2.Problem tracing and troubleshooting.\n" +
             "3.New technology research.",
@@ -262,6 +277,7 @@ const job_data = {
         title: "资深软件开发工程师C++/Java/Go",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1. Deliver qualified new features in Trend Micro’s SaaS product.\n" +
             "2. Communicate smoothly with QA, operation team and other stakeholders.\n" +
             "3. Feature design, review and implementation. Deliver qualified design document.\n" +
@@ -277,6 +293,7 @@ const job_data = {
         title: "资深预研工程师Research Developer",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1. Support senior researchers on implementing research prototypes.\n" +
             "2. Do research job independently. Transfer the knowledge obtained and prototype developed to the product teams.\n" +
             "3. Be a active thinker and contribute his/her new thoughts on selected research directions to the team.",
@@ -291,6 +308,7 @@ const job_data = {
         title: "威胁防御工程师Windows/MacOS",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1. Be in charge of Trend Micro threat remediation engine on Windows/MacOS and ransomware response\n" +
             "2. Be in charge of Trend Micro Mac threat response system along with MacOS threat research.",
         qualifications: "1. Having experience and strong interest in threat analysis/research and corresponding front-end module and big data system development.\n" +
@@ -302,6 +320,7 @@ const job_data = {
         title: "Mobile Threat Researcher/移动安全研究员",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "closed",
         responsibilities: "1.Research on mobile Exploit/APT attacks and Mobile platforms (iOS/Android …) and IOT vulnerabilities.\n" +
             "2.Implement corresponding adv. threat protection solution.",
         qualifications: "1.Having experience and strong interest in reverse engineering/vulnerability research.\n" +
@@ -315,6 +334,7 @@ const job_data = {
         title: "资深Windows开发工程师-Sandcastle",
         type: "开发",
         pub_date: "2020-08-05",
+        status: "open",
         responsibilities: "1. Design and develop VM based sandbox on Windows, and controller server on Linux\n" +
             "- Design documents\n" +
             "- Feature implementation\n" +
@@ -342,6 +362,7 @@ const job_data = {
         title: "资深开发工程师Windows",
         type: "开发",
         pub_date: "2020-03-09",
+        status: "open",
         responsibilities: "1. Develop Microsoft Store apps and traditional Windows desktop apps\n" +
             "2. Bug fixing, root cause analyses, and troubleshooting technical issues in the test and customer environment.\n" +
             "3. Collect and analyze the data feedback from customers to improve our products.\n" +
@@ -359,6 +380,7 @@ const job_data = {
         title: "资深移动开发工程师（Android）-TMMS",
         type: "开发",
         pub_date: "2020-03-06",
+        status: "open",
         responsibilities: "Trend Micro Mobile Security is a mobile app providing comprehensive protection for Android devices. It safeguards against virus, privacy issue, fraudulet websites and provides other system utilites.\n" +
             "Trend Micro IoT Security Android version is a solution working on Android System providing comprehensive protection for Android devices.\n" +
             "The Mobile Security team is looking for a talent to develop new products and solutions on various Mobile environments (mainly on Android, iOS is a plus.).\n" +
@@ -391,6 +413,7 @@ const job_data = {
         title: "资深开发工程师Windows/c++",
         type: "开发",
         pub_date: "2020-03-06",
+        status: "open",
         responsibilities: "1. Design and develop Endpoint Correlation Engine on Windows platform\n" +
             "- Design documents\n" +
             "- Feature implementation\n" +
@@ -418,6 +441,7 @@ const job_data = {
         title: "移动端预研工程师-Mobile Research Engineer",
         type: "开发",
         pub_date: "2020-03-06",
+        status: "open",
         responsibilities: "The research engineer of Core Tech and Mobile Group is a key member for innovating new security solutions and solving critical technical problems. This person will also conduct research to identify strategic technologies for the company’s next generation products. Will have the advantage of exposure to multiple technologies across endpoint and cloud, covering the portfolio of enterprise & consumer security product offerings.\n",
         qualifications: "1.Bachelor's degree in Computer Science or related field\n" +
             "2.Fast-learning and self-motivated\n" +

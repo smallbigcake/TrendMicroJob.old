@@ -27,6 +27,10 @@ export default {
         return {
             job_data: Common.job_data
         };
+    },
+    created: function () {
+        // Change html title to current job title.
+        document.title = this.job_data[this.$route.params.id].title;
     }
 }</script>
 

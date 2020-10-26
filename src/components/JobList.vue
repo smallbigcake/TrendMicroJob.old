@@ -5,13 +5,13 @@
             <thead>
                 <td>Job Title</td>
                 <td>Job Type</td>
-                <td>Publis Date</td>
+                <td>Publish Date</td>
             </thead>
             <tbody>
-                <tr v-for="(item, index) in jobData"
-                    :key="index"
+                <tr v-for="item in sorted_job_data"
+                    :key="item.id"
                     >
-                    <td><a :href="'job/' + index"> {{ item.title }} </a></td>
+                    <td><a :href="'job/' + item.id"> {{ item.title }} </a></td>
                     <td>{{ item.type }}</td>
                     <td>{{ item.pub_date }}</td>
                 </tr>
@@ -27,6 +27,29 @@ export default {
     props: {
         msg: String,
         jobData: Object
+    },
+    computed: {
+        sorted_job_data: function () {
+            const job_array = [];
+            for (const job_id in this.jobData) {
+                if (this.jobData[job_id].status === "open") {
+                    const one_job = this.jobData[job_id];
+                    one_job.id = job_id;
+                    job_array.push(one_job);
+                }
+            }
+            job_array.sort(sort_job_date);
+            return job_array;
+        }
+    }
+}
+
+function sort_job_date(a, b) {
+    if (a.pub_date > b.pub_date) {
+        return -1;
+    }
+    else {
+        return 1;
     }
 }
 </script>
