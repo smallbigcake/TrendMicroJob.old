@@ -4,7 +4,8 @@
 const job_data = {
     190267216: {
         title: "资深开发工程师Linux C++",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities:
@@ -25,7 +26,8 @@ const job_data = {
     },
     190295876: {
         title: "资深测试开发工程师-Android",
-        type: "测试开发",
+        recruit_type: "social",
+        job_type: "测试开发",
         pub_date: "2020-09-29",
         status: "open",
         responsibilities: "1.Come out test design, test cases design based on product requirement.\n" +
@@ -47,7 +49,8 @@ const job_data = {
     },
     190291157: {
         title: "资深测试工程师",
-        type: "测试",
+        recruit_type: "social",
+        job_type: "测试",
         pub_date: "2020-09-09",
         status: "open",
         responsibilities: "1. Work closely with Dev/Operation team and stakeholders to conduct test design and define quality metrics for product features.\n" +
@@ -70,7 +73,8 @@ const job_data = {
     },
     190298493: {
         title: "前端工程师",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-10-21",
         status: "open",
         responsibilities: "1. Develop user-facing features for Trend Micro SaaS project.\n" +
@@ -88,7 +92,8 @@ const job_data = {
     },
     190296265: {
         title: "资深开发工程师-XDR",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-10-09",
         status: "open",
         responsibilities: "1. Be responsible for mobile XDR feature design/development.\n" +
@@ -105,7 +110,8 @@ const job_data = {
     },
     190291021: {
         title: "资深开发工程师-SaaS开发",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-09-08",
         status: "open",
         responsibilities: "1. The developer will join a pure SaaS project, which hosted in public cloud.\n" +
@@ -120,7 +126,8 @@ const job_data = {
     },
     190146536: {
         title: "资深Linux开发工程师",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-09-01",
         status: "open",
         responsibilities: "1. Develop new features, problem solving and troubleshooting, debugging and performance optimization of software products.\n" +
@@ -137,7 +144,8 @@ const job_data = {
     },
     190287447: {
         title: "资深开发工程师Mac/Linux",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-09-01",
         status: "open",
         responsibilities: "1.Design, build, and maintain core modules and unified platform on Mac OS X.\n" +
@@ -150,7 +158,8 @@ const job_data = {
     },
     190283974: {
         title: "Cloud/backend Developer",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-10",
         status: "open",
         responsibilities: "1.Build containerized apps and/or microservices on cloud that connected with other services and provide data support to frontend\n" +
@@ -170,7 +179,8 @@ const job_data = {
     },
     190215972: {
         title: "UE/UI 资深设计师",
-        type: "设计",
+        recruit_type: "social",
+        job_type: "设计",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "- Articulate, develop and model the end-to-end user experience\n" +
@@ -194,7 +204,8 @@ const job_data = {
     },
     190265155: {
         title: "移动威胁响应工程师",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1.Be responsible for mobile malware analysis and provide solution to protect Trend Micro's global customers.\n" +
@@ -211,7 +222,8 @@ const job_data = {
     },
     190267135: {
         title: "移动威胁大数据研发工程师",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1.Design and implement powerful mobile threat bigdata steam processing system for over billions of files (Android/iOS/…).\n" +
@@ -228,7 +240,8 @@ const job_data = {
     },
     190107383: {
         title: "移动威胁大数据研发工程师",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1.Research and application of ML algorithms to detect anomaly in enterprise-wise environment.\n" +
@@ -242,7 +255,8 @@ const job_data = {
     },
     190111374: {
         title: "初级软件开发工程师",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1.In this position, you will be responsible for working in software product development which is used by our global customers.\n" +
@@ -260,7 +274,8 @@ const job_data = {
     },
     190144186: {
         title: "资深开发工程师C++",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1.Feature design, review and implementation. Deliver qualified design document.\n" +
@@ -275,7 +290,8 @@ const job_data = {
     },
     190178208: {
         title: "资深软件开发工程师C++/Java/Go",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1. Deliver qualified new features in Trend Micro’s SaaS product.\n" +
@@ -291,7 +307,8 @@ const job_data = {
     },
     190186763: {
         title: "资深预研工程师Research Developer",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1. Support senior researchers on implementing research prototypes.\n" +
@@ -306,7 +323,8 @@ const job_data = {
     },
     190282807: {
         title: "威胁防御工程师Windows/MacOS",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1. Be in charge of Trend Micro threat remediation engine on Windows/MacOS and ransomware response\n" +
@@ -318,7 +336,8 @@ const job_data = {
     },
     190282805: {
         title: "Mobile Threat Researcher/移动安全研究员",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "closed",
         responsibilities: "1.Research on mobile Exploit/APT attacks and Mobile platforms (iOS/Android …) and IOT vulnerabilities.\n" +
@@ -332,7 +351,8 @@ const job_data = {
     },
     190282799: {
         title: "资深Windows开发工程师-Sandcastle",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-08-05",
         status: "open",
         responsibilities: "1. Design and develop VM based sandbox on Windows, and controller server on Linux\n" +
@@ -360,7 +380,8 @@ const job_data = {
     },
     190243945: {
         title: "资深开发工程师Windows",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-03-09",
         status: "open",
         responsibilities: "1. Develop Microsoft Store apps and traditional Windows desktop apps\n" +
@@ -378,7 +399,8 @@ const job_data = {
     },
     190050868: {
         title: "资深移动开发工程师（Android）-TMMS",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-03-06",
         status: "open",
         responsibilities: "Trend Micro Mobile Security is a mobile app providing comprehensive protection for Android devices. It safeguards against virus, privacy issue, fraudulet websites and provides other system utilites.\n" +
@@ -411,7 +433,8 @@ const job_data = {
     },
     190127159: {
         title: "资深开发工程师Windows/c++",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-03-06",
         status: "open",
         responsibilities: "1. Design and develop Endpoint Correlation Engine on Windows platform\n" +
@@ -439,7 +462,8 @@ const job_data = {
     },
     190245342: {
         title: "移动端预研工程师-Mobile Research Engineer",
-        type: "开发",
+        recruit_type: "social",
+        job_type: "开发",
         pub_date: "2020-03-06",
         status: "open",
         responsibilities: "The research engineer of Core Tech and Mobile Group is a key member for innovating new security solutions and solving critical technical problems. This person will also conduct research to identify strategic technologies for the company’s next generation products. Will have the advantage of exposure to multiple technologies across endpoint and cloud, covering the portfolio of enterprise & consumer security product offerings.\n",
@@ -452,6 +476,111 @@ const job_data = {
             "7.Hands on experience in AWS or Azure cloud service is a plus\n" +
             "8.Experience in building large-scale software systems / SaaS solution is a plus"
     },
+
+    // Intern
+    190135215: {
+        title: "实习生-软件开发（6个月）",
+        recruit_type: "intern",
+        job_type: "开发",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "加入不同项目团队，共同完成趋势科技产品的研发相关工作",
+        qualifications: "1. 计算机科学或相关专业\n" +
+            "2. 研一或研二的同学，每周实习四天以上，连续实习6个月以上\n" +
+            "3. 熟悉C，C++，C#，.Net中一种，有一定编程基础，有一定开发经验\n" +
+            "4. 有Linux或Windows操作经验，熟悉网络相关知识优先\n" +
+            "5. 熟悉至少一种脚本语言（如python, perl或其他)优先\n" +
+            "6. 熟悉 Database(SQL server)优先\n" +
+            "7. 快速的学习和解决问题的能力，良好的沟通和团队合作"
+    },
+    190135226: {
+        title: "实习生-软件测试（6个月）",
+        recruit_type: "intern",
+        job_type: "测试",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "1) 编写简单的病毒样本\n" +
+            "2) 版本的手动测试和自动化测试\n" +
+            "3) Python和shell脚本开发",
+        qualifications: "1. 每周实习四天以上，实习期六个月以上\n" +
+            "2 .熟悉windows平台，熟悉基本linux 操作和简单的命令\n" +
+            "2.有一定的编程基础，熟悉python或者其他脚本的编程\n" +
+            "3.熟悉数据库或者web 前端者优先"
+    },
+    190181545: {
+        title: "实习生-测试开发（六个月）",
+        recruit_type: "intern",
+        job_type: "测试开发",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "1. 基于趋势科技全球开发测试平台，定制开发相关的系统平台和工具链\n" +
+            "2. 基于趋势产品，自动化测试工具的研发\n" +
+            "3. 业界主流软件研发工具与流程的研究，如容器化，DevOps，Cloud等",
+        qualifications: "1. 计算机科学或相关专业\n" +
+            "2. 每周实习四天以上，连续实习6个月以上\n" +
+            "3. 熟练掌握Java语言(Spring MVC, Spring, mybatis)\n" +
+            "4. 熟练掌握Web开发语言HTML, CSS, Javascript.\n" +
+            "5. 熟练掌握常见的关系型数据库，如MySQL，SQL Server\n" +
+            "6. 熟悉Linux下常见的命令\n" +
+            "7. 热爱编程，动手能力强， 并具备读写英文文档的能力\n" +
+            "8. 有python经验的优先考虑\n" +
+            "9. 有项目实践经验者优先\n"
+    },
+    190151772: {
+        title: "实习生-MARS 开发",
+        recruit_type: "intern",
+        job_type: "开发",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "趋势科技MARS 系统开发和大数据组专注于海量移动威胁自动化处理的大数据分析系统研发。数据量级在PB级别，使用的技术栈涉及高可用web 服务，分布式存储，分布式计算和调度，分布式系统自动化部署和监控，机器学习和大数据可视化等。\n" +
+            "具体相关技术组件包括 RabbitMQ,Redis,MongoDB,Mysql,ElasticSearch,Hadoop/Spark/Kafka。 欢迎有志于从事相关技术方向研究和实现的同学加入我们。\n" +
+            "\n" +
+            "根据项目组实时运转状况，MARS 实习生 可以参与到\n" +
+            "\n" +
+            "1. 开发/测试分布式全网爬虫系统\n" +
+            "2. 开发/测试分布式系统自动化运维系统\n" +
+            "3. 开发/测试大数据分析和数据可视化系统\n" +
+            "4. 开发/测试运用机器学习自动化分析移动威胁系统",
+        qualifications: "1. 每周实习四天以上，实习期三个月以上\n" +
+            "2. 熟练掌握Java或python\n" +
+            "3. 熟悉SQL 数据库或non-SQL 数据库\n" +
+            "4. 加分项\n" +
+            "a) 熟悉爬虫系统\n" +
+            "b) 熟悉自动化运维系统\n" +
+            "c) 熟悉大数据相关技术\n" +
+            "d) 熟悉ML和数据分析技术"
+    },
+    190151776: {
+        title: "实习生-MARS 威胁研究",
+        recruit_type: "intern",
+        job_type: "开发",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "趋势科技MARS 威胁研究组专注于移动威胁研究 涵盖 移动威胁分析，移动应用，移动系统以及相关设备的漏洞研究和挖掘。\n" +
+            "欢迎有志于从事相关方向研究的同学加入我们。",
+        qualifications: "1. 每周实习四天以上，实习期三个月以上\n" +
+            "2. 对逆向和移动威胁研究有浓厚的，并有具有相关经验。\n" +
+            "3. 熟悉汇编语言/C/C++，有较为扎实的计算机知识和不错编程功底。\n" +
+            "4. 加分项\n" +
+            "a) 熟悉恶意软件常用攻击方式和漏洞利用相关技巧\n" +
+            "b) 熟悉下列任何一种语言： ObjectiveC 或Java 或python\n" +
+            "c) 熟悉系统内核（Android 或iOS 或 Linux），并掌握user/kernel model 注入技巧"
+    },
+    190182469: {
+        title: "实习生-运营推广",
+        recruit_type: "intern",
+        job_type: "运营",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "1. 在海外社交媒体平台上运营产品的社交媒体帐号。\n" +
+            "2. 根据产品以及平台特点设计话题，维持帐号的活跃度。\n" +
+            "3. 回答社交媒体平台粉丝的问题。\n" +
+            "4. 追踪海外热点新闻，设计营销话题并撰写文案。",
+        qualifications: "1. 英文相关专业，英文流利，每周至少出勤3天，实习期不少于4个月。\n" +
+            "2. 有海外社交媒体帐号使用经验。\n" +
+            "3. 对新事物有强烈的好奇心。"
+    },
+
 
 }
 
