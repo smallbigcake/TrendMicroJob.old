@@ -32,10 +32,12 @@ export default {
         sorted_job_data: function () {
             const job_array = [];
             for (const job_id in this.jobData) {
-                if (this.jobData[job_id].status === "open"  // Job may be closed.
-                    && this.recruit_type.indexOf(this.jobData[job_id].recruit_type) !== -1  // Only current selected recruit type will be displayed.
+                const job_item = this.jobData[job_id];
+                if (job_item.status === "open"  // Job may be closed.
+                    && this.recruit_type.indexOf(job_item.recruit_type) !== -1  // Only current selected recruit type will be displayed.
+                    && job_item.title.indexOf(this.keyword) !== -1  // Only display jobs that match the search keyword.
                 ) {
-                    const one_job = this.jobData[job_id];
+                    const one_job = job_item;
                     one_job.id = job_id;
                     job_array.push(one_job);
                 }
@@ -45,6 +47,9 @@ export default {
         },
         recruit_type: function () {
             return this.$store.state.job_filter.recruit_type;
+        },
+        keyword: function () {
+            return this.$store.state.job_filter.keyword;
         }
     }
 }
