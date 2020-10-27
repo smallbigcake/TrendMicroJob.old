@@ -3,11 +3,12 @@
         <h2>
             Search Job Position
         </h2>
-<!--        <label>-->
-<!--            Search:-->
-<!--            <input type="text" >-->
-<!--        </label>-->
+        <label>
+            Search:
+            <input type="text" v-model="keyword">
+        </label>
         <p>
+            招聘类型：
             <input id="social" type="checkbox" value="social" v-model="recruit_type">
             <label for="social">社招</label>
 
@@ -25,12 +26,24 @@ export default {
     name: 'JobFilter',
     data() {
         return {
-            recruit_type: this.$store.state.job_filter.recruit_type
+            recruit_type: this.$store.state.job_filter.recruit_type,
+            keyword: this.$store.state.job_filter.keyword
         }
     },
     watch: {
         recruit_type() {
-            this.$store.commit('change_filter', this.recruit_type);
+            const params = {
+                filter_type: "recruit_type",
+                filter_value: this.recruit_type
+            }
+            this.$store.commit('change_filter', params);
+        },
+        keyword() {
+            const params = {
+                filter_type: "keyword",
+                filter_value: this.keyword
+            }
+            this.$store.commit("change_filter", params);
         }
     }
 }

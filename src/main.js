@@ -8,13 +8,14 @@ const store = createStore({
     state () {
         return {
             job_filter: {
-                recruit_type: ["social", "campus", "intern"]
+                recruit_type: ["social", "campus", "intern"],
+                keyword: ""
             }
         };
     },
     mutations: {
-        change_filter(state, recruit_type) {
-            state.job_filter.recruit_type = recruit_type;
+        change_filter(state, params) {
+            state.job_filter[params.filter_type] = params.filter_value;
         }
     }
 });
