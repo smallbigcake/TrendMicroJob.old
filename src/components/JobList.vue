@@ -21,6 +21,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 
 export default {
     name: 'JobList',
@@ -45,12 +46,10 @@ export default {
             job_array.sort(sort_job_date);
             return job_array;
         },
-        recruit_type: function () {
-            return this.$store.state.job_filter.recruit_type;
-        },
-        keyword: function () {
-            return this.$store.state.job_filter.keyword;
-        }
+        ...mapState({
+            recruit_type: state => state.job_filter.recruit_type,
+            keyword: state => state.job_filter.keyword
+        })
     }
 }
 
