@@ -239,11 +239,11 @@ const job_data = {
             "9.Being familiar with machine learning is plus"
     },
     190107383: {
-        title: "移动威胁大数据研发工程师",
+        title: "AI工程师",
         recruit_type: "social",
         job_type: "开发",
         pub_date: "2020-08-05",
-        status: "open",
+        status: "closed",
         responsibilities: "1.Research and application of ML algorithms to detect anomaly in enterprise-wise environment.\n" +
             "2.Collecting, processing, cleansing, and verifying the integrity of data used for analysis.\n" +
             "3.Data mining and feature extraction using state-of-the-art methods.\n" +
@@ -579,6 +579,52 @@ const job_data = {
         qualifications: "1. 英文相关专业，英文流利，每周至少出勤3天，实习期不少于4个月。\n" +
             "2. 有海外社交媒体帐号使用经验。\n" +
             "3. 对新事物有强烈的好奇心。"
+    },
+    190301728: {
+        title: "实习生-前端开发",
+        recruit_type: "intern",
+        job_type: "开发",
+        pub_date: "2020-11-06",
+        status: "open",
+        responsibilities: "参与产品开发，协助实现UI界面设计和实现",
+        qualifications: "1.2022届计算机相关专业毕业生，要求连续实习3个月以上，每周实习大于等于3天；\n" +
+            "2.熟悉html/css/java script，了解web/http相关知识\n" +
+            "3.主动性强，有相关经验者优先"
+    },
+    190277516: {
+        title: "实习生-UI/UE",
+        recruit_type: "intern",
+        job_type: "开发",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "1. 根据产品需求完成 UI、图标及场景的设计与改进。\n" +
+            "2. 根据推广需求完成广告图片、海报及相关视觉素材的设计与制作。",
+        qualifications: "1. 新传、广告、视觉艺术设计、数字媒体艺术、动画等相关专业。\n" +
+            "2. 活泼开朗，思维活跃，乐于分享，有天马行空的想象力。\n" +
+            "3. 熟练使用 Sketch,  PS 以及相关软件优先。\n" +
+            "4. 有手绘、插画设计能力优先。\n" +
+            "5. 每周 3～5 天，实习周期至少 4 个月，能长期实习者优先。"
+    },
+    190301717: {
+        title: "实习生-机器学习",
+        recruit_type: "intern",
+        job_type: "开发",
+        pub_date: "2020-03-06",
+        status: "open",
+        responsibilities: "This job requires any individual with intensive experiences in python language. The selected candidate will closely work with a global machine learning team in different time zones.\n" +
+            "\n",
+        qualifications: "- In-depth knowledge of python language including objected-oriented programming (e.g. classes), and data aggregation/analysis\n" +
+            "- Excellent communication in English (written is essential, spoken is optional)\n" +
+            "- Analytical and creative mindset on various problems\n" +
+            "- Excellent time management and multitasking skills\n" +
+            "- No machine learning knowledge is required (but you will learn a lot as part of this job)\n" +
+            "- Bonus skillset:\n" +
+            "o jupyter notebook, visualisation framework (e.g. holoviews, bokeh, or matplotlib)\n" +
+            "o Database framework (e.g. elasticsearch)\n" +
+            "o Experience on malware related tasks\n" +
+            "o Python based web programming (e.g. Tornado)\n" +
+            "o Web programming with javascript\n" +
+            "- And passion\n"
     },
 
 
