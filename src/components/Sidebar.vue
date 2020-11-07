@@ -1,7 +1,7 @@
 <template>
     <div class="sidebar">
         <div class="sidebar-content">
-            <span id="ref_email">Referral Email: smallbigcake[at]qq.com</span>
+            <span id="ref_email">Referral Email: cake_xu[at]trendmicro.com</span>
         </div>
     </div>
 </template>
