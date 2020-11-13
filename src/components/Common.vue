@@ -76,7 +76,7 @@ const job_data = {
         recruit_type: "social",
         job_type: "开发",
         pub_date: "2020-10-21",
-        status: "open",
+        status: "closed",
         responsibilities: "1. Develop user-facing features for Trend Micro SaaS project.\n" +
             "2. Ensure the technical feasibility of UI/UX designs and deliver mockup.\n" +
             "3. Deliver feature requirement and design documents. Complete code construction with high quality.\n" +
@@ -475,6 +475,45 @@ const job_data = {
             "6.Mobile development experience on Android or iOS is a plus\n" +
             "7.Hands on experience in AWS or Azure cloud service is a plus\n" +
             "8.Experience in building large-scale software systems / SaaS solution is a plus"
+    },
+    190303028: {
+        title: "资深前端开发工程师",
+        recruit_type: "social",
+        job_type: "开发",
+        pub_date: "2020-11-12",
+        status: "open",
+        responsibilities: "• Develop user-facing features for Trend Micro projects\n" +
+            "• Ensure the technical feasibility of UI/UX designs and deliver mockup with HIE (Human Interface Engineer)\n" +
+            "• Deliver feature design documents. Complete code construction with high quality.\n" +
+            "• Collaborate smoothly with QA, HIE and other team members and stakeholders\n" +
+            "• Problem tracing and troubleshooting, and optimize for compatibility, scalability and performance\n",
+        qualifications: "• Bachelor’s or Master’s degree in Computer Science or relevant field.\n" +
+            "• Three years’ experiences on Web Developer position for commercial projects.\n" +
+            "• Be familiar with php or java, and also be familiar with SQL\n" +
+            "• Be familiar with client-side scripting and frontend framework, including jQuery, VUE\n" +
+            "• Be familiar with frontend technology, including HTML/CSS/JavaScript/AJAX.\n" +
+            "• Good English writing and speaking.\n" +
+            "• Self-motivation and teamwork.\n"
+    },
+    190303162: {
+        title: "资深运维开发工程师",
+        recruit_type: "social",
+        job_type: "开发",
+        pub_date: "2020-11-13",
+        status: "open",
+        responsibilities: "1. Design, implement and Management of CI/CD process and release artifacts (source code, document and release build) with multiple systems (GitHub, Jenkins, Fortify, Black Duck, AWS/Azure, Nexus, Docker…)\n" +
+            "2. Provide release process, code security and tool chain consultant service to product development teams.\n" +
+            "3. Watching and Evaluating the new industrial technologies on DevOps tool chain and code security.",
+        qualifications: "• At least 3 years of experience in software development or equivalent work experience.\n" +
+            "• Solid knowledge of either one of backend programming such as C++, GoLang, Java, Python.\n" +
+            "• Strong experiences on CI/CD solution setup for official software product release.\n" +
+            "• Familiar with multiple DevOps relevant tools. (GitHub, Jenkins, Nexus, Docker, Kubernetes… etc.)\n" +
+            "• Familiar with secure code scanning relevant tools. (Fortify, Black Duck… etc.)\n" +
+            "• Familiar with public cloud solution like: AWS, Azure.\n" +
+            "• Familiar with project management and agile practices, like Scrum.\n" +
+            "• Strong communication skills and willing to take challenges.\n" +
+            "• Good English read/write and oral skill is required.\n" +
+            "• Familiar with Azure Devops, AWS CodeBuild, CodePipeline is a plus\n"
     },
 
     // Intern
